@@ -4,7 +4,7 @@ import 'react-circular-progressbar/dist/styles.css';
 
 function TopSectionOptions({title,total,percentage,selected,percentage2,color,color2,color3}) {
     return (
-        <div className={`sm:w-full xl:w-[32%] text-white cursor-pointer select-none font-bold flex justify-between border rounded-md border-gray-500 p-2 group ${color3}`}>
+        <div className={`lg:w-[48%] xl:w-[32%] text-white cursor-pointer select-none font-bold flex justify-between border rounded-md border-gray-500 p-2 group ${color3}`}>
             <div className="flex flex-col items-center space-y-5 w-[50%]">
                 <p className="text-sm">{title}</p>
                 <h3>{total}</h3>
